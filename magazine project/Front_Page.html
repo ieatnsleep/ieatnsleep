@@ -1,0 +1,225 @@
+<!--Front page html-->
+<!--With navigation bar, side news panel and a 2x2 grid hot topic news layout-->
+<!--Rerences: 
+
+[1]w3schools.com, "Icon Reference", 2022 [Online]. Available:https://www.w3schools.com/icons/icons_reference.asp
+[Accessed: 10-Mar-2022]
+
+[2]googlefont.com, "Google Fonts", 2022[Online]. Available:"https://fonts.google.com/"
+[Accessed: 10-Mar-2022]
+
+[3]fontawesome.com, "Fontawesome", 2022[Online]. Available: "https://fontawesome.com/start"
+[Accessed. 10-Mar-2022]
+
+[4]chansen64, "FIDE Grand Prix Belgrade Semifinals Day 2: Rapport Magic" , 2022[Online].
+Available: "https://www.chess.com/news/view/2022-fide-grand-prix-belgrade-semifinals-day-2"
+[Accessed: 10-Mar-2022]
+
+[5]Colin McGourty, 2022 "Chennai wins right to host 2022 Chess Olympiad" ,2022[Online].
+Available:"https://chess24.com/en/read/news/chennai-wins-right-to-host-2022-world-chess-olympiad"
+[Accessed: 10-Mar-2022]
+
+[6]Leon Watson, "Ivanchuk echoes call for Russian players to be banned", 2022[Online].
+Available: "https://chess24.com/en/read/news/ivanchuk-echoes-call-for-russian-players-to-be-banned"
+[Accessed: 10-Mar-2022]
+
+[7]Tarjei Svensen, "First Russian Grandmaster changes federation since ban", 2022[Online].
+Available: "https://chess24.com/en/read/news/russian-grandmaster-changes-federation"
+[Accessed 10-Mar-2022]
+
+[8]Colin McGourty, "2022 Chess Calendar", 2022[Online]. Available:
+"https://chess24.com/en/read/news/2022-chess-calendar"
+[Accessed: 10-Mar-2022]
+
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" 
+        content="IE=edge" />
+        <title></title>
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Front_Page.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- google fonts, reference[2]-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;600&family=Raleway:wght@200;400;600&display=swap" rel="stylesheet"> 
+        <!-- font awesome, reference[3] -->
+        <script src="https://kit.fontawesome.com/3c3bb5ddb7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <!--header-->
+        <header>
+            <div class = "nav-container">
+                <div class = "top-header">
+                    <div class = "club-name">
+                        <h1>UOL Chess Club<a href="Front_Page.html"><i class="fas fa-chess-board"></i></a></h1>
+                    </div>
+
+                    <div class = "ham-btn">
+                        <span>
+                            <i class = "fas fa-bars"></i>
+                        </span>
+                    </div>
+
+                    <div class = "times-btn">
+                        <span>
+                            <i class = "fas fa-times"></i>
+                        </span>  
+                    </div>
+                </div>
+                <!--nav bar-->
+                <div class = "nav-bar" id="nav-bar">
+                    <nav>
+                        <ul>
+                            <li><a href = "Front_Page.html">Home</a></li>
+                            <li><a href = "#">Latest update</a></li>
+                            <li><a href = "#">Read</a></li>
+                            <li><a href = "#">Learn</a></li>
+                            <li><a href = "#">Tour</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--social icons, refereneced[1]-->
+                <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href="#"><i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class = "fab fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class = "fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section class = "side-panel">
+                    <!--Main title text-->
+            <div class = "main-title">
+                <h2>LATEST WORLD'S CHESS UPDATE</h2>
+                <h3>Be part of the UOL Chess Club</h3>
+
+                <!--Main title button-->
+                <button>
+                    <a href = "#">Know More</a>
+                </button>
+
+                <!--current news list-->
+                <div class = "current-news-head">
+                    <!--reference[5]-->
+                    <h3><a href =Side_Page.html>Chennai wins right to host 2022 Chess Olympiad<span>by Colin McGourty</span></a></h3>
+
+                    <h3>2022 Chess Calendar<span>by Colin McGourty</span></h3>
+
+                    <h3>First Russian Grandmaster changes federation since ban<span>by Tarjei Svensen</span></h3>
+
+                    <h3>Kramnik on what went wrong for Nepomniachtchi<span>by Tarjei Svensen</span></h3>
+                </div>
+            </div>
+
+            <!--2x2 grid hot topic content-->
+            <div class = "banner-sub-content">
+                <!--TopLeft hot topic content, content reference[4]-->
+                <div class = "hot-topic">
+                    <img src = "Images/Fide_Grand_Prix.jpeg" alt = ""> <!--reference[4]-->
+
+                    <div class = "hot-topic-content">
+                        <h2>2022 FIDE Grand Prix Belgrade Semifinals Day 2</h2>
+
+                        <h3>Report</h3>
+                        <p>Wednesday's games of the 2022 FIDE Grand Prix in Belgrade saw GM Richard Rapport win with the white pieces against GM Maxime Vachier-Lagrave</p>
+                        <button id="btnTopLeft">
+                            <a href = "TopLeft_Page.html">Read More</a>
+                        </button> 
+                    </div>
+                </div>
+
+                <!--TopRight hot topic content, content reference[6]-->
+                <div class = "hot-topic">
+                    <img src = "Images/Ivanchuk_1.jpg" alt = "">
+
+                    <div class = "hot-topic-content">
+                        <h2>Ivanchuk echoes call for Russian players to be banned</h2>
+
+                        <h3>General</h3>
+                        <p>Chess great Vasyl Ivanchuk has made his position clear on the war in Ukraine by echoing demands for a blanket ban on all Russian players</p>
+                        <button id="btnTopRight">
+                            <a href = "TopRight_Page.html">Read More</a>
+                        </button>
+                    </div>
+                </div>
+
+                <!--BotLeft hot topic content, content reference[7]-->
+                <div class = "hot-topic">
+                    <img src = "Images/Magnus_1.jpg" alt = "">
+
+                    <div class = "hot-topic-content">
+                        <h2>First Russian Grandmaster changes federation since ban</h2>
+
+                        <h3>General</h3>
+                        <p>Grandmaster and profilic trainer Evgeny Romanov has become the first top player to change federations since FIDE stopped Russians from competing...</p>
+                        <button id="btnBotLeft">
+                            <a href = "BotLeft_Page.html">Read More</a>
+                        </button>
+                    </div>
+                </div>
+
+                <!--BotRight hot topic content, content reference[8]-->
+                <div class = "hot-topic">
+                    <img src = "Images/ChessCalendar_1.jpg">
+
+                    <div class = "hot-topic-content">
+                        <h2>2022 Chess Calendar</h2>
+                        <h3>Calendar</h3>
+                        <p>The 2022 Chess Calendar begins with Magnus Carlsen and Fabiano Caruana topping the field for the Tata Steel Masters from January 15th onwards</p>
+                        <button id="btnBotRight">
+                            <a href = "BotRight_Page.html">Read More</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!--footer content-->
+        <footer>
+            <div class = "footer-container">
+                <div class = "footer-left">
+                    <h2>UOL Chess Club</h2>
+                    <p>The goal remains to deliver the world’s best chess experience.</p>
+                </div>
+
+                <div class = "footer-right">
+                    <h2>Newsletter</h2>
+                    <p>Stay updated on chess news everywhere you go, sign up on our newsletter service for free!</p>
+    
+                    <div>
+                        <input type = "text" placeholder = "Email Address">
+                        <!--reference [1]-->
+                        <i class = "fas fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+
+            <p>Copyright &copy; 2022 All rights reserved | Say Khong</p>
+        </footer>
+
+
+        <script src="Nav_Bar.js" async defer></script>
+    </body>
+</html>
