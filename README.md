@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Ng Say Khong</h1>
 <h3 align="center">Finance enthusiast and analytical investor passionate about data analysis and UI/UX from Singapore</h3>
+<h3 align="center">Having a BCs Computer Science(Honours) and Diploma in Landscape Design & Horticulture, I believe my own skills in project managements and soft skills such as teamwork and a good communicator. I also strongly believe in user-centric design and enjoy working with data to conduct data analysis through data visualization.</h3>
 
 - 🌱 I’m currently learning **Tableau**
 
