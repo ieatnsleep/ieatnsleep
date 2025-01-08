@@ -10,7 +10,7 @@
 
 - 📝 I wrote a beginner investment guide [https://bit.ly/skstocktipnote](https://bit.ly/skstocktipnote)
 
-- 💬 Ask me anything about **recent financial market news**
+- 💬 My linked profile is https://linkedin.com/in/ng-say-khong.
 
 - 📫 How to reach me **ngsaykhong@gmail.com**
 
