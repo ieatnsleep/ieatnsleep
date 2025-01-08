@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ng Say Khong</h1>
-<h3 align="center">Finance enthusiast and analytical investor passionate about fintech and data analysis from Singapore</h3>
+<h3 align="center">Finance enthusiast and analytical investor passionate about data analysis and UI/UX from Singapore</h3>
 
 - 🌱 I’m currently learning **Tableau**
 
