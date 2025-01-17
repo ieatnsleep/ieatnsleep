@@ -6,7 +6,7 @@
 
 - Final year Project : [Deep Learning on Credit Card Fraud Detection](https://github.com/ieatnsleep/Final_Year_Project_DL)
 
-- 👨‍💻 All of my projects are available at [(https://github.com/ieatnsleep](https://github.com/ieatnsleep?tab=repositories)
+- 👨‍💻 All of my projects are available at [https://github.com/ieatnsleep](https://github.com/ieatnsleep?tab=repositories)
 
 - 📝 I wrote a beginner investment guide [https://bit.ly/skstocktipnote](https://bit.ly/skstocktipnote)
 
