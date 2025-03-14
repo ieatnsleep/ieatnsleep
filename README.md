@@ -12,8 +12,6 @@
 
 - 💬 My linked profile is https://linkedin.com/in/ng-say-khong.
 
-- 📫 How to reach me **ngsaykhong@gmail.com**
-
 - ⚡ Fun fact **Nature lover and I love watching candles move**
 
 <h3 align="left">Connect with me:</h3>
