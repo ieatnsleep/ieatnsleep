@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Ng Say Khong</h1>
 <h3 align="center">IT experienced and machine learning enthusiast passionate about ML/AI,data analysis from Singapore</h3>
-<h3 align="center">Having a BCs Computer Science(Honours) and Diploma in Landscape Design & Horticulture, I've developed extensive skills in data analytics(TableAU, SQL, matplotlib), machine learning(Tensorflow,scikit-learn,PyTorch), project managements, and having valuable soft skills such as being a team player and a good communicator. I also strongly believe in user-centric design and enjoy working with data to conduct data analysis through data visualization. Having experience with a variety of machine learning and deep learning techniques and understanding, I hope to also be able to contribute to the growing AI industry</h3>
+<h3 align="center">Having a BCs Computer Science(Honours) and Diploma in Landscape Design & Horticulture, I've developed extensive skills in data analytics, machine learning, project managements, and having valuable soft skills such as being a team player and a good communicator. I also strongly believe in keeping up with latest technology solutions and enjoy working with data to provide solutions to help achieve business goals.</h3>
 
-- 🌱 I’m currently learning **Tableau**
+- 🌱 I’m currently working at SEA as IT helpdesk analyst
 
 - Final year Project : [Deep Learning on Credit Card Fraud Detection](https://github.com/ieatnsleep/Final_Year_Project_DL)
 
